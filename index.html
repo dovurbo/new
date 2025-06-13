@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2113.65">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="lt"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;meta charset="UTF-8" /&gt;</p>
+<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;</p>
+<p class="p1">&lt;title&gt;Renginių landing page&lt;/title&gt;</p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-family: Arial, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: #f9f9f9;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: 0; padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: flex; flex-direction: column; align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>min-height: 100vh;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>header {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: #004aad;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 1rem 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>main {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>max-width: 600px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: 2rem 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: white;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-radius: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>box-shadow: 0 0 15px rgb(0 0 0 / 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>h2 {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-top: 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #004aad;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>ul#event-list {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>list-style: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>ul#event-list li {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 0.8rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-bottom: 1px solid #ddd;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>transition: background 0.2s;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>ul#event-list li:hover {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: #eef5ff;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#registration-form {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-top: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#registration-form input, #registration-form button {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: block;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: 0.5rem 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 0.7rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#registration-form button {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: #004aad;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-radius: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#registration-form button:hover {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: #00357a;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#form-title {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom: 0.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #222;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#success-message {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-top: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: #d4edda;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #155724;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-radius: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: none;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1">&lt;header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h1&gt;Artėjantys renginiai&lt;/h1&gt;</p>
+<p class="p1">&lt;/header&gt;</p>
+<p class="p1">&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h2&gt;Pasirinkite renginį ir užsiregistruokite&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;ul id="event-list"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li data-event="Webinaras apie marketingą, 2025-07-01"&gt;Webinaras apie marketingą – 2025-07-01&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li data-event="Programavimo kursai, 2025-07-15"&gt;Programavimo kursai – 2025-07-15&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li data-event="Verslo konferencija, 2025-08-05"&gt;Verslo konferencija – 2025-08-05&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/ul&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;form id="registration-form"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h3 id="form-title"&gt;Registracija į renginį&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;input type="text" id="name" placeholder="Jūsų vardas" required /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;input type="email" id="email" placeholder="Jūsų el. paštas" required /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;button type="submit"&gt;Registruotis&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="success-message"&gt;Ačiū už registraciją!&lt;/div&gt;</p>
+<p class="p1">&lt;/main&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const eventList = document.getElementById('event-list');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const form = document.getElementById('registration-form');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const formTitle = document.getElementById('form-title');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const successMessage = document.getElementById('success-message');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>let selectedEvent = '';</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>eventList.addEventListener('click', e =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if (e.target.tagName === 'LI') {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>selectedEvent = e.target.getAttribute('data-event');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>formTitle.textContent = `Registracija į: ${selectedEvent}`;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>form.style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>successMessage.style.display = 'none';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>form.name.value = '';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>form.email.value = '';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>form.scrollIntoView({behavior: 'smooth'});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>form.addEventListener('submit', e =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>e.preventDefault();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const name = form.name.value.trim();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const email = form.email.value.trim();</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>if (name &amp;&amp; email &amp;&amp; selectedEvent) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>// Demo: išvedam duomenis į konsolę</p>
+<p class="p1"><span class="Apple-converted-space">      </span>console.log(`Registracija į "${selectedEvent}" - Vardas: ${name}, El.paštas: ${email}`);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>// Parodom sėkmės žinutę</p>
+<p class="p1"><span class="Apple-converted-space">      </span>form.style.display = 'none';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>successMessage.style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>});</p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
